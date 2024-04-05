@@ -10,9 +10,9 @@ export default function NavBar() {
             <h1 className="content-center">Welcome</h1>
             </div>
             <div className="flex justify-end mr-6 w-1/3 ">  
-                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">button1</button>
-                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">button2</button>
-                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">button3</button>
+                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">About Me</button>
+                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">Projects</button>
+                <button className="bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons">Reach out</button>
             </div>
         </div>
     );
