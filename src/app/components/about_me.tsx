@@ -8,12 +8,14 @@ export default function AboutMe () {
         <>
             <div>
                 {/* photo div */}
-                <div>
+                <div className='absolute mt-7 ml-36 z-10'>
                     <img className="img"src='/headshot.png' alt='profile img' />
                 </div>
                 {/* about card */}
-                <div>
-
+                <div className='aboutmetext border-2 absolute border-slate-600 rounded-lg'>
+                    <div>
+                        <h1>Isaiah Martin | Frontend Engineer</h1>
+                    </div>
                 </div>
             </div>
         </>
