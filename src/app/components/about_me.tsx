@@ -12,10 +12,9 @@ export default function AboutMe () {
                     <img className="img"src='/headshot.png' alt='profile img' />
                 </div>
                 {/* about card */}
-                <div className='aboutmetext border-2 absolute border-slate-600 rounded-lg'>
-                    <div>
-                        <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Frontend Engineer</h1>
-                    </div>
+                <div className='aboutmetext border-2 absolute border-slate-600 rounded-lg'>                    
+                    <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Frontend Engineer</h1>
+                    
                 </div>
             </div>
         </>
