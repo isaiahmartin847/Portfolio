@@ -14,7 +14,7 @@ export default function AboutMe () {
                 {/* about card */}
                 <div className='aboutmetext border-2 absolute border-slate-600 rounded-lg'>
                     <div>
-                        <h1>Isaiah Martin | Frontend Engineer</h1>
+                        <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Frontend Engineer</h1>
                     </div>
                 </div>
             </div>
