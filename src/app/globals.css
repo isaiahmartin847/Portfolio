@@ -10,7 +10,6 @@
 
 
 .img {
-    
     width: inherit;
     height: 575px;
     border-radius: 10%;
@@ -20,6 +19,4 @@
     margin-top: 230px;
     margin-left: 30vw;
     margin-right: 10vw;
-    /* width: 50vw; */
-
 }
