@@ -11,13 +11,13 @@ import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaStackOverflow } from
 export default function AboutMe () {
     return (
         <>
-            <div>
+            <div className='relative h-fit pt-[8vh]'>
                 {/* photo div */}
-                <div className='absolute mt-7 ml-[15vw] z-10'>
+                <div className='absolute right-[69vw]'>
                     <img className="img"src='/headshot.png' alt='profile img' />
                 </div>
                 {/* about card */}
-                <div className='aboutmetext border-2 absolute border-slate-600 rounded-lg'>                    
+                <div className='aboutmetext border-2 border-slate-600 rounded-lg'>                    
                     <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Frontend Engineer</h1>
                     <div className=' w-fit ml-28 pr-10 mt-10'>
                         <p className='text-xl'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur in numquam atque animi minima temporibus quas voluptas inventore reprehenderit esse asperiores consectetur, voluptatibus ut, quod quia beatae deleniti molestiae similique obcaecati nisi! Suscipit impedit beatae aut. Deleniti, incidunt rerum! Quidem rem voluptate, atque illum laudantium animi doloribus quibusdam placeat fuga alias. Voluptate dolore perferendis suscipit quod voluptatibus recusandae explicabo eum id ullam iste omnis ut distinctio eligendi neque magnam doloremque rerum, quo itaque nulla nisi inventore. Odit adipisci doloremque incidunt ipsa tempore, id soluta voluptas. Nam qui possimus facilis magnam saepe provident rerum quisquam excepturi, quos laboriosam temporibus debitis.</p>
