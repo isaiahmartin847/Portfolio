@@ -7,11 +7,10 @@ export default function MyProjects () {
     const skills: Array<string> = ["React.js", "Next.js", "Tailwind"]
 
     return (
-        <div className="flex border-4 ml-[10vw] mr-[10vw] mt-16">
+        <div className="flex border-2 border-black rounded-[30px] ml-[10vw] mr-[10vw] mt-16">
             <ProjectImg img='https://images.pexels.com/photos/2893685/pexels-photo-2893685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
             <AboutProject title="hello" description={input}/> 
             <ProjectSkills skills={skills} />
-            
         </div>
     )
 }
