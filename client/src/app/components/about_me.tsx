@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiMysql } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaGithub } from "react-icons/fa";
@@ -48,8 +48,8 @@ export default function AboutMe () {
                                     <p className='text-center font-serif '>Python</p>
                                 </div>
                                 <div className='p-1'>
-                                    <FaHtml5 size='5rem' color='#f06529'/>
-                                    <p className='text-center font-serif '>HTML</p>
+                                    <FaNodeJs size='5rem' color='#68A063'/>
+                                    <p className='text-center font-serif '>Node.js</p>
                                 </div>
                                 <div className='p-1'>
                                     <SiTailwindcss  size='5rem' color='#3490dc'/>
@@ -57,8 +57,8 @@ export default function AboutMe () {
                                 </div>
         
                                 <div className='p-1'>
-                                    <FaCss3Alt size='5rem' color='#264de4'/>
-                                    <p className='text-center font-serif '>CSS</p>
+                                    <SiMysql size='5rem' color='#264de4'/>
+                                    <p className='text-center font-serif '>MySQL</p>
                                 </div>
                                 <div className='p-1 pr-6'>
                                     <FaGithub size='5rem' color='#000000'/>
