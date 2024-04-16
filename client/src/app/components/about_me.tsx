@@ -9,6 +9,7 @@ import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaGithub } from "react
 
 
 export default function AboutMe () {
+    
     return (
         <>
             <div className='relative h-fit pt-[8vh]'>

@@ -8,12 +8,13 @@ export default function MyProjects () {
     
     return (
         <div className="flex border-4 ml-[10vw] mr-[10vw] mt-16">
-            <div className="border-2 border-red-500 w-1/4">
+            <div className=" w-1/4">
                 <img className="p-3 w-[300px] rounded-[30px]" src="https://images.pexels.com/photos/2893685/pexels-photo-2893685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
             </div>
-            <div className="border-2 border-black w-max text-center">
+            <div className=" w-fit">
                 <h1 className="font-bold text-xl text-center">Farm Website</h1>
-                <p className="w-3/4 pl-[20%] ml-3 mt-4">The Covenant Gardens Farm website was created to offer shoppers an alternative way to select products without relying on physical pamphlets, saving the farm hundreds of dollars on printing and folding costs. I began by developing the front end of the application using the latest frontend technologies, including React, Next.js, JavaScript, Tailwind, and CSS. Once the front end was completed, I proceeded to implement the backend using Node.js and Express for the REST API. After finalizing the routing, I integrated it with a relational database called MySQL to manage products, users, and users cart. Additionally, I utilized version control using GitHub to maintain high code standards and for project management purposes.</p>
+                
+                <p className="text-center w-fit pr-[10%] pl-[10%] mt-4">The Covenant Gardens Farm website was created to offer shoppers an alternative way to select products without relying on physical pamphlets, saving the farm hundreds of dollars on printing and folding costs. I began by developing the front end of the application using the latest frontend technologies, including React, Next.js, JavaScript, Tailwind, and CSS. Once the front end was completed, I proceeded to implement the backend using Node.js and Express for the REST API. After finalizing the routing, I integrated it with a relational database called MySQL to manage products, users, and users cart. Additionally, I utilized version control using GitHub to maintain high code standards and for project management purposes.</p>
             </div>
             <div className="w-1/4">
                 <h1 className="text-center text-lg font-bold">tech stack</h1>
