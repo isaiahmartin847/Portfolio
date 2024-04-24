@@ -1,26 +1,19 @@
 "use client"
 import { motion } from "framer-motion";
-import { FaReact, FaDigitalOcean } from "react-icons/fa";
+import AnimatedLogos from "./animated_logos";
+
 
 export const ConstantMovementBar = () => {
   return (
-    <div style={{ width: "100%", height: "30px", background: "#ffffff" }}>
+    <div className="w-max h-[30px]">
       <motion.div
-        className="bg-slate-300 w-100% h-100%"
-        animate={{ x: [-200, 2000]}}
-        transition={{ ease: "linear", duration: 15, repeat: Infinity }}
+        className="w-100% h-100%"
+        animate={{ x: [-600, 2000]}}
+        transition={{ ease: "linear", duration: 10, repeat: Infinity }}
       >
         <div className="flex">
-            <FaReact 
-            className="mr-2"
-            size={30}
-            color="blue"
+            <AnimatedLogos />
             
-            />
-            <FaDigitalOcean 
-            size={30}
-            color="aqua"
-            />
         </div>
 
         
