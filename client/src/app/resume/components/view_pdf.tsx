@@ -1,0 +1,22 @@
+
+
+
+const ShowPdf = () => {
+
+
+    return (
+        <div>
+        <iframe
+          src="https://s3.amazonaws.com/attachments.angel.co/10246298-e85c6c717f1fb8c8c76c9647352fc039.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIATAVHNKYQ3RWB2APO%2F20240424%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240424T224725Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJGMEQCIFSQyEn0lTPMVGY4g%2BL4tmDvwqijnCxwhgQc1cuE0wF9AiAcmU8EDmBo8mzZrDyO35LKtaF4a57HspdbG0TqE2WIyyqTBQiX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDIwNzU4MzI3MDQzMyIM7X1QDIS6WjN9AH3IKucEiHXSSr5x6AjNzTjP0topXBgR%2BEgwEI2GCd%2FFM2K3BROx2J3Ac67sSx5jJaHbylFHQdBvZGzqobxiYQiZlR86h5DSeJeQqFRGOLHDsl8X1O3nyNdv3o0vLQyLAhzqc%2FNoX00M%2BaQqWwoAmZs0FofCcUo%2BOsovCCbREMfC1oXG6CQV8AuJqw9XsDvNgev%2Bh7MhU%2FtJbjNdiycq6Q1Ss5fbFxGEOXkHj7fYIDQivO0f6m%2BX%2FU5PeGmR7I%2FSjBXD78NKqYBntvL7zNocnZCLQ19KuAPo2HMhoGP4CHzve2Kw48HaXaR6FoZPakNdNHBuhpneD9jui9IDD4Ii17s20rMWAgtJLH9NC7uInGY7WxaPQ72xxH3PM%2B0WoAQsHZzh2QyX7uMaaZDyajlTNsGvxV%2B6U99ZBQQ%2F1G6GVB7ngsb%2FJel3fUdjAWXmAmD3d%2F9m%2BZNTvWuQ4fC3gp98E7CBHaWDnHIMseVlVr9kvMi1z%2FjWvnpZTQWNfmgck0wPYgz6JhWlIvCJ2QpIfFfL1lWEK08sZcxY%2FkiOeJITf32aUSUgSDIk%2BgF9XeKSU8pDnZgsHIv35uagZN1qnCEijRI2D4ONJ2HW9owQ6xjVNicZSs0bbEsHh3ZOVb2laLO0xJms66TDnOkd3U0J3cPHQwWXrGpe6YEhFlutAMYbOvUA6imUGAoR6riCElQfSPcN7d%2Fjiyz5yqu1EnPdIuhj97rAWpY9DFQjW0wemKTgWHFM5uUZ5YFue9rl018DTNpBCvhdvChdTkeldMxrTlYqHnizPvS15S38laJ5R3%2B3LYMUYsm9g%2Fw6e5AYacRBMKCBprEGOpsBz3%2FRQaOTvVhLVZ4xh2fdTTzhLmDjxVrSI32FYj%2BSsbKJLt7vaJesMOWmx4moeuEtpYtHcnSFu%2BCi2DYTqa75DDo75Gs3BkbBUdRQ1d%2FIX4XCYZB5xYnlvJyWsFxQI2Uo9kNrtCxfAoJ6TSO1WSwjagUQFmbRZ14KyiiInvkTMvKAFFcyj4X8mFnn5vLzwH0LQV4sWbCSV64wi3Q%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ed7e7645ff20b1c78ae9ed07ff767545a7cc1d86f9aea3193d9abee0a24cb869" // Replace with the actual path to your PDF file
+          width="100%"
+          height="1000px"
+        />
+      </div>
+    )
+}   
+
+
+
+
+
+export default ShowPdf
