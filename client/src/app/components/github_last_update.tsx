@@ -1,9 +1,11 @@
 "use client"
 
+import Loadable from "next/dist/shared/lib/loadable.shared-runtime";
 import { useEffect, useState } from "react"
 
 export default function GithubLastUpdate () {
     const [date, setDate]: any = useState(null)
+
 
     useEffect(() => {
         const owner: string = 'isaiahmartin847';
@@ -40,9 +42,14 @@ export default function GithubLastUpdate () {
         })
     }
 
-    return (
-        <>
-            <h1>this is the last update component last update {date}</h1>
-        </>
-    )
+    if(date) {
+      return (
+        <h1>The last commit to this repo was on {date}</h1>
+      )
+    } else {
+      return (
+        <h1>loading</h1>
+      )
+    }
+
 }
