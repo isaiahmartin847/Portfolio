@@ -7,7 +7,7 @@ import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaGithub, FaDigitalOce
 
 
 export default function AnimatedLogos () {
-    const logoSize: number = 40
+    const logoSize: number = 50
 
     return (
         <>  
@@ -16,7 +16,8 @@ export default function AnimatedLogos () {
                 className="mr-2"
                 size={logoSize}
                 color="#087ea4"
-            />
+            > 
+            </FaReact>
 
             <SiNextdotjs 
                 className="mr-2"
@@ -89,3 +90,5 @@ export default function AnimatedLogos () {
         </>
     )
 }
+
+
