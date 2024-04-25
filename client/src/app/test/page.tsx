@@ -1,12 +1,11 @@
-import { ConstantMovementBar, RollOffScreenExample } from "../components/test_animate";
+import Loading from "../components/loading";
+
 
 export default function Test() {
 
   return (
     <>
-        <h1>this is the test page</h1>
-        {/* <ConstantMovementBar /> */}
-        <RollOffScreenExample />
+      <Loading /> 
     </>
   );
 }
