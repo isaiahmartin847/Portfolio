@@ -14,7 +14,7 @@ type Props = {
 const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
 
     return (
-        <div className="bg-blue-500 flex justify-between text-white min-h-14 w-[100vw]">
+        <div className="bg-blue-500 flex justify-between text-white min-h-14 w-full">
             <div className="ml-6 content-center w-1/3 text-xl font-bold">
                 <h1>Isaiahmartin.dev</h1>
             </div>
