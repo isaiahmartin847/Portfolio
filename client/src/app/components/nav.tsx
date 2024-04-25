@@ -7,13 +7,11 @@ type Props = {
     btn1Url: string
     btn2Text: string
     btn2Url: string
-    btn3Text: string
-    btn3Url: string 
 }
 
 
 
-const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url, btn3Text, btn3Url}) => {
+const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
 
     return (
         <div className="bg-blue-500 flex justify-between text-white min-h-14 w-[100vw]">
@@ -27,8 +25,8 @@ const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url, btn3Text
                 <Link href={btn2Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
                     <h1>{btn2Text}</h1>
                 </Link>
-                <Link href={btn3Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
-                    <h1>{btn3Text}</h1>
+                <Link href='https://github.com/isaiahmartin847?tab=overview&from=2024-04-01&to=2024-04-24' target='_blank' className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
+                    <h1>Github</h1>
                 </Link>
             </div>
         </div>

@@ -10,8 +10,6 @@ const Home = () => {
             btn1Url="/"
             btn2Text="Projects"
             btn2Url="#"
-            btn3Text="Reach out"
-            btn3Url="#"
             />
             <ShowPdf />
         </>

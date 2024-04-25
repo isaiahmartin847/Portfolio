@@ -15,8 +15,6 @@ export default function Home() {
       btn1Url="/resume"
       btn2Text="Projects"
       btn2Url="/#"
-      btn3Text="Reach out"
-      btn3Url="/#"
       />
       <AboutMe></AboutMe>
       <h1 className="text-center font-bold text-3xl mt-[10vh]">Projects</h1>
