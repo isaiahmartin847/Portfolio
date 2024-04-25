@@ -2,6 +2,7 @@
 
 import Loadable from "next/dist/shared/lib/loadable.shared-runtime";
 import { useEffect, useState } from "react"
+import Loading from "./loading";
 
 export default function GithubLastUpdate () {
     const [date, setDate]: any = useState(null)
@@ -48,7 +49,9 @@ export default function GithubLastUpdate () {
       )
     } else {
       return (
-        <h1>loading</h1>
+        <div className="pt-2 pb-1 w-fit ml-[47%] ">
+          <Loading />
+        </div>
       )
     }
 

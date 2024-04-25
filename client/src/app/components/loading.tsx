@@ -30,8 +30,8 @@ const Loading = () => {
   return (
     <div className="flex">
       <Dot split={0}/>
-      <Dot split={0.5}/>
-      <Dot split={1}/>
+      <Dot split={0.2}/>
+      <Dot split={0.3}/>
     </div>
   )
 }
