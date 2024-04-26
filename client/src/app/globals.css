@@ -15,23 +15,6 @@
     border-radius: 10%;
 }
 
-.aboutmetext {
-    margin-top: 230px;
-    margin-left: 30vw;
-    margin-right: 10vw;
-}
-
-.testClass {
-    display: flex;
-
-}
 
 
-@media screen and (min-width: 1280px) {
-    .testClass {
-        flex-direction: column;
-    }
-    .stack {
-        margin-right: 100px;
-    }
-}
+
