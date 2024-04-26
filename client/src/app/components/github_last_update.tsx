@@ -4,14 +4,19 @@ import Loadable from "next/dist/shared/lib/loadable.shared-runtime";
 import { useEffect, useState } from "react"
 import Loading from "./loading";
 
-export default function GithubLastUpdate () {
+
+type Props = {
+  repo: string 
+}
+
+const GithubLastUpdate = ({repo}: Props) => {
     const [date, setDate]: any = useState(null)
 
 
     useEffect(() => {
         const owner: string = 'isaiahmartin847';
         const token: string = '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';
-        const repo: string = 'personal_web'
+        // const repo: string = 'personal_web'
         const apiUrl: string = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
 
         fetch(apiUrl, {
@@ -56,3 +61,7 @@ export default function GithubLastUpdate () {
     }
 
 }
+
+
+
+export default GithubLastUpdate
