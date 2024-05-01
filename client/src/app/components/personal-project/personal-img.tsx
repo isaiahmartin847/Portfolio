@@ -1,6 +1,3 @@
-
-
-
 const PersonalProjectImg = () => {
     return (
         <div className="p-3">
