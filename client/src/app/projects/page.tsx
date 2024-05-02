@@ -1,15 +1,22 @@
 import NavBar from "../components/nav";
+import ProjectProp from "./components/project-componets";
 
 export default function () {
     return (
         <div>
-      <NavBar
-      btn1Text="Home"
-      btn1Url="/"
-      btn2Text="Resume"
-      btn2Url="/resume"
-      />
-            <h1>page in production</h1>
+            <NavBar
+            btn1Text="Home"
+            btn1Url="/"
+            btn2Text="Resume"
+            btn2Url="/resume"
+            />
+
+            <ProjectProp 
+            github="farm-web"
+            title="Best Project"
+            />
+            
+            
         </div>
     )
 }
