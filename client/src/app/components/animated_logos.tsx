@@ -10,7 +10,7 @@ export default function AnimatedLogos () {
     const logoSize: number = 50
 
     return (
-        <>  
+        <div className="flex justify-center">  
 
             <FaReact 
                 className="mr-2"
@@ -87,7 +87,7 @@ export default function AnimatedLogos () {
 
 
             
-        </>
+        </div>
     )
 }
 

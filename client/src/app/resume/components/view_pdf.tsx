@@ -5,8 +5,8 @@ const ShowPdf = () => {
 
 
     return (
-      <div >
-        <img className="ml-[30vw] mr-[30vw] border-black border-[1px] mt-4" src="/photos/resume.png"/>
+      <div className="flex justify-center">
+        <img className="border-black border-[1px] mt-4" src="/photos/resume.png"/>
       </div>
     )
 }   

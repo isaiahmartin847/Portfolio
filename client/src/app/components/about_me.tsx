@@ -21,8 +21,8 @@ export default function AboutMe () {
                     <p className='text-xl'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur in numquam atque animi minima temporibus quas voluptas inventore reprehenderit esse asperiores consectetur, voluptatibus ut, quod quia beatae deleniti molestiae similique obcaecati nisi! Suscipit impedit beatae aut. Deleniti, incidunt rerum! Quidem rem voluptate, atque illum laudantium animi doloribus quibusdam placeat fuga alias. Voluptate dolore perferendis suscipit quod voluptatibus recusandae explicabo eum id ullam iste omnis ut distinctio eligendi neque magnam doloremque rerum, quo itaque nulla nisi inventore. Odit adipisci doloremque incidunt ipsa tempore, id soluta voluptas. Nam qui possimus facilis magnam saepe provident rerum quisquam excepturi, quos laboriosam temporibus debitis.</p>
                     </div> 
                     <div>
-                        <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold '>Tech Stack</h1>
-                        <div className='flex border-black border-2'>
+                        <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold'>Tech Stack</h1>
+                        <div className='flex'>
                             <div className='pl-6 p-1'>
                                 <FaReact size='5rem' color='#087ea4'/>
                                 <p className='text-center font-serif'>React</p>

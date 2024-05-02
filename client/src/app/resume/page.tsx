@@ -1,4 +1,5 @@
 import NavBar from "../components/nav"
+import DownloadBtn from "./components/download-btn"
 import ShowPdf from "./components/view_pdf"
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             btn2Url="#"
             />
             <ShowPdf />
+            <DownloadBtn />
         </>
     )
 }

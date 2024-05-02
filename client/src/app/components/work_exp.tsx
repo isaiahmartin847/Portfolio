@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { ConstantMovementBar } from "./test_animate";
+import AnimatedLogos from "./animated_logos";
 
 
 
@@ -18,7 +19,8 @@ export default function () {
             <div className=" mt-8">
                 <h1 className="text-blue-400 font-bold ">Technology Used </h1>
                 <div className="border-t-2 border-b-2 border-blue-300 h-14 mb-10">
-                    <ConstantMovementBar />
+                    {/* <ConstantMovementBar /> */}
+                    <AnimatedLogos />
                 </div>
             </div>
         </div>
