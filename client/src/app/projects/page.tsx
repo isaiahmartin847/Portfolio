@@ -2,7 +2,6 @@ import NavBar from "../components/nav";
 import ProjectProp from "./components/project-componets";
 
 export default function () {
-    const test: Array<string> = ["HTML", "CSS", "JavaScript"]; // Define test as an array of strings
     return (
         <div>
             <NavBar
@@ -16,7 +15,7 @@ export default function () {
             github="farm-web"
             title="Best Project"
             photoPath="/photos/farmweb.png"
-            skills={test}
+            skills={['this', 'is', 'a', 'test']}
             />
             
             
