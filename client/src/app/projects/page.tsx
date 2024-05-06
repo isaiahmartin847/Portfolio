@@ -15,7 +15,7 @@ export default function () {
             github="farm-web"
             title="Best Project"
             photoPath="/photos/farmweb.png"
-            skills={['this', 'is', 'a', 'test']}
+            skills={['JavaScript', 'HTML', 'CSS',]}
             />
             
             
