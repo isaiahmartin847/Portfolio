@@ -10,7 +10,7 @@ import { FaJava } from "react-icons/fa";
 type Props = {
     title: string 
     github: string 
-    // text: string
+    text: string
     photoPath: string
     skills: Array<string>
 
@@ -19,18 +19,16 @@ type Props = {
 
 
 
-const ProjectProp = ({title, github, photoPath, skills}: Props) => {
-
-    console.log("what is happening")
+const ProjectProp = ({title, github, photoPath, skills, text}: Props) => {
 
     return (
-        <div className="flex mt-4 ml-10 mr-10 border-2 border-black rounded">
+        <div className="flex mt-4 ml-10 mr-10 border-2 border-black rounded h-[50vh]">
             <div>
                 <Image 
                 src={photoPath}
                 // layout="responsive"
-                width={228}
-                height={228}
+                width={565}
+                height={560}
                 alt="project photo"
                 className="border-2 border-black"
                 />
@@ -41,8 +39,8 @@ const ProjectProp = ({title, github, photoPath, skills}: Props) => {
                 </div>
                 <div className="w-3/4 ml-10 mt-2">
                     <h1 className="font-bold text-xl">About</h1>
-                    <p className="ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam, itaque quasi dolor esse harum, provident in accusantium doloremque cumque sunt tempore earum labore iusto! Aperiam incidunt nobis neque debitis.</p>
-                    {/* <p>{text}</p> */}
+                    {/* <p className="ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam, itaque quasi dolor esse harum, provident in accusantium doloremque cumque sunt tempore earum labore iusto! Aperiam incidunt nobis neque debitis.</p> */}
+                    <p>{text}</p>
                 </div>   
                 <div className="ml-10">
                     <h4 className="font-bold font-sans">Skills</h4>
