@@ -7,6 +7,7 @@ import { useEffect, useState } from "react"
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiNodedotjs } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
+import GithubLastUpdate from "@/app/components/github_last_update";
 
 
 const FarmWeb  = () => {
@@ -31,9 +32,9 @@ const FarmWeb  = () => {
             btn2Url="/"
             />
 
-            <div id="parent" className="flex flex-row mt-10">
+            <div id="parent" className="flex flex-row mt-10 relative border-2 border-black">
 
-                <div id="picture div" className="border-2 border-black">
+                <div id="picture div" className="border-r-2 border-black">
                     <Image
                     src="/photos/farmweb.png"
                     width={vw} // Width calculated based on the aspect ratio
@@ -41,12 +42,12 @@ const FarmWeb  = () => {
                     layout="responsive" // Image will scale both width and height while maintaining aspect ratio
                     />
                 </div>
-                <div id="text field" className="border-2 border-red-500 w-full">
+                <div id="text field" className="w-full">
                     <div className="flex justify-center items-center font-bold text-xl mt-2">
                         <h1>Farm Website</h1>
                     </div>
                     <div className="ml-[15%] mr-[15%] mt-4">
-                        <h1 className="font-bold text-lg">About</h1>
+                        <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequuntur aperiam, ullam harum sint repellendus
                             rerum deserunt neque magnam qui provident exercitationem iste perspiciatis esse nobis natus ut quaerat molestias
@@ -58,10 +59,16 @@ const FarmWeb  = () => {
                         </p>
                     </div>
                     <div>
-                        <h1 className="text-[20px] ml-[8%] mt-10">Skills</h1>
-                        <div id="skills" className="border-t-2 border-b-2 border-blue-300"> 
+                        <h1 className="text-[20px] text-center mt-10 mb-2 font-mono">Skills</h1>
+                        <div id="skills" className="ml-[20%] mr-[20%] border-t-2 border-b-2 border-blue-300 flex flex-row items-center justify-center h-20"> 
                             <Skills />
                         </div>  
+                    </div>
+
+                    <div className="bg-[#666666] text-white text-[20px] absolute bottom-4 w-[50%] text-center ml-[17%] rounded-lg font-semibold">
+                        <GithubLastUpdate 
+                        repo="farm-web"
+                        />
                     </div>
                 </div>
 
