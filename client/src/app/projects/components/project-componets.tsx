@@ -3,9 +3,6 @@ import GithubLastUpdate from "@/app/components/github_last_update"
 import Image from "next/image"
 import { useEffect, useState, useRef } from "react"
 
-// import { ImInsertTemplate } from "react-icons/im"
-// import { LiaCoinsSolid } from "react-icons/lia"
-// import { IoLogoJavascript } from "react-icons/io5";
 
 
 
