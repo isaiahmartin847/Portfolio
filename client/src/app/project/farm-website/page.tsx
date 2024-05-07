@@ -8,6 +8,7 @@ import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiNodedotjs } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import GithubLastUpdate from "@/app/components/github_last_update";
+import Link from "next/link";
 
 
 const FarmWeb  = () => {
@@ -64,6 +65,10 @@ const FarmWeb  = () => {
                         <div id="skills" className="ml-[20%] mr-[20%] border-t-2 border-b-2 border-blue-300 flex flex-row items-center justify-center h-20"> 
                             <Skills />
                         </div>  
+                    </div>
+
+                    <div className="bg-blue-500 w-fit p-1 rounded-lg text-white font-semibold mt-4 ml-[47%] hover:bg-blue-400">
+                        <Link href={"/"}>Visit the site</Link>
                     </div>
 
                     <div className="bg-[#666666] text-white text-[20px] absolute bottom-4 w-[50%] text-center ml-[17%] rounded-lg font-semibold">

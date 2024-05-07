@@ -1,6 +1,8 @@
+import GithubLastUpdate from "@/app/components/github_last_update"
 import NavBar from "@/app/components/nav"
 import Image from "next/image"
-import { FaCss3Alt, FaHtml5 } from "react-icons/fa"
+import Link from "next/link"
+import { FaCss3Alt, FaHtml5, FaGithub } from "react-icons/fa"
 import { RiJavascriptFill } from "react-icons/ri"
 
 
@@ -41,7 +43,17 @@ const QRCodeProject = () => {
                             {/* skills */}
                             <Skills />
                         </div>
-                    </div>     
+                    </div>
+                    
+                    <div className="bg-blue-500 w-fit p-1 rounded-lg text-white font-semibold ml-[47%] mt-4 hover:bg-blue-400">
+                        <Link target="_blank" href="https://isaiahmartin847.github.io/QRCodeGenerator/">Visit the site</Link>
+                    </div>
+
+                    <div className="mb-4 bg-[#666666] text-white text-[20px] w-[50%] text-center ml-[25%] mt-4 rounded-lg font-semibold">
+                        <GithubLastUpdate 
+                        repo="QRCodeGenerator"
+                        />
+                    </div>
 
                 </div>
 
@@ -79,10 +91,19 @@ const Skills = () => {
                 <FaCss3Alt 
                 size={iconSize}
                 color="#2565AE"
-
                 />
                 <h4>CSS</h4>
             </div>
+
+            <div className="ml-4 flex flex-col items-center">
+            <FaGithub 
+            size={iconSize}
+            color="#666666"
+            />
+            <h4>Github</h4>
+            </div>
+
+
 
         </div>
     )
