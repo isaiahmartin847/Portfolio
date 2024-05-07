@@ -36,11 +36,12 @@ const FarmWeb  = () => {
 
                 <div id="picture div" className="border-r-2 border-black">
                     <Image
-                    src="/photos/farmweb.png"
-                    width={vw} // Width calculated based on the aspect ratio
-                    height={vh} // Set height to full viewport height
-                    layout="responsive" // Image will scale both width and height while maintaining aspect ratio
-                    />
+                        src="/photos/farmweb.png"
+                        width={vw} // Width calculated based on the aspect ratio
+                        height={vh} // Set height to full viewport height
+                        layout="responsive" // Image will scale both width and height while maintaining aspect ratio
+                        alt={"image of project"}
+                        />
                 </div>
                 <div id="text field" className="w-full">
                     <div className="flex justify-center items-center font-bold text-xl mt-2">
