@@ -1,6 +1,8 @@
+"use client"
 import GithubLastUpdate from "@/app/components/github_last_update"
 import Image from "next/image"
-import { FaJava } from "react-icons/fa";
+import { useEffect, useState, useRef } from "react"
+
 // import { ImInsertTemplate } from "react-icons/im"
 // import { LiaCoinsSolid } from "react-icons/lia"
 // import { IoLogoJavascript } from "react-icons/io5";
@@ -20,15 +22,29 @@ type Props = {
 
 
 const ProjectProp = ({title, github, photoPath, skills, text}: Props) => {
+    const [divHigh, setDivHigh] = useState<number>(0);
+
+        const divRef = useRef(null);
+
+        useEffect(() => {
+            if (divRef.current) {
+                const height: number = divRef.current.clientHeight;
+                setDivHigh(() => {
+                    return height * 1.16
+                })
+            }
+        }, []);
+
+
 
     return (
-        <div className="flex mt-4 ml-10 mr-10 border-2 border-black rounded h-[50vh]">
+        <div ref={divRef} className="flex mt-4 ml-10 mr-10 border-2 border-black rounded h-[50vh]">
             <div>
                 <Image 
                 src={photoPath}
                 // layout="responsive"
-                width={565}
-                height={560}
+                width={divHigh}
+                height={divHigh}
                 alt="project photo"
                 className="border-2 border-black"
                 />
@@ -40,7 +56,7 @@ const ProjectProp = ({title, github, photoPath, skills, text}: Props) => {
                 <div className="w-3/4 ml-10 mt-2">
                     <h1 className="font-bold text-xl">About</h1>
                     {/* <p className="ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam, itaque quasi dolor esse harum, provident in accusantium doloremque cumque sunt tempore earum labore iusto! Aperiam incidunt nobis neque debitis.</p> */}
-                    <p>{text}</p>
+                    <p className="ml-10">{text}</p>
                 </div>   
                 <div className="ml-10">
                     <h4 className="font-bold font-sans">Skills</h4>
