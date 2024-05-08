@@ -1,6 +1,10 @@
 
 import React, { FunctionComponent } from 'react'
 import Link from 'next/link';
+import { link } from 'fs';
+import ProjectLink from './project-link';
+import ProjectProp from '../projects/components/project-componets';
+import ProjectNav from './project-nav';
 
 type Props = {
     btn1Text: string
@@ -29,9 +33,17 @@ const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
                     <h1>Github</h1>
                 </Link>
             </div>
+
+            <ProjectNav />
         </div>
     );
 }
+
+
+
+
+
+
 
 
 export default NavBar
