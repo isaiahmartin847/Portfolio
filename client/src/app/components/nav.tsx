@@ -1,10 +1,8 @@
-
-import React, { FunctionComponent } from 'react'
+"use client"
+// import React, { FunctionComponent } from 'react'
 import Link from 'next/link';
-import { link } from 'fs';
-import ProjectLink from './project-link';
-import ProjectProp from '../projects/components/project-componets';
 import ProjectNav from './project-nav';
+import { useState } from 'react';
 
 type Props = {
     btn1Text: string
@@ -16,6 +14,10 @@ type Props = {
 
 
 const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
+    const [visible, setVisible] = useState<boolean>(false)
+
+
+
 
     return (
         <div className="bg-blue-500 flex justify-between text-white min-h-14 w-full">
@@ -26,15 +28,20 @@ const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
                 <Link href={btn1Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
                     <h1>{btn1Text}</h1>
                 </Link>
-                <Link href={btn2Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
-                    <h1>{btn2Text}</h1>
-                </Link>
+                <button className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons' onClick={() => {
+                    setVisible(!visible)
+                }}>
+                    <h1>Projects</h1>
+                </button>
                 <Link href='https://github.com/isaiahmartin847?tab=overview&from=2024-04-01&to=2024-04-24' target='_blank' className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
                     <h1>Github</h1>
                 </Link>
             </div>
-
-            <ProjectNav />
+            
+            <ProjectNav 
+            setVisible={setVisible}
+            visible={visible}
+            />
         </div>
     );
 }
