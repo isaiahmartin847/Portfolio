@@ -7,13 +7,12 @@ import { useState } from 'react';
 type Props = {
     btn1Text: string
     btn1Url: string
-    btn2Text: string
-    btn2Url: string
+
 }
 
 
 
-const NavBar: React.FC<Props> = ({btn1Text, btn1Url, btn2Text, btn2Url}) => {
+const NavBar: React.FC<Props> = ({btn1Text, btn1Url}) => {
     const [visible, setVisible] = useState<boolean>(false)
 
 

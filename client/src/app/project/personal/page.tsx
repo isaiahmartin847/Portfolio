@@ -3,7 +3,6 @@ import NavBar from "@/app/components/nav"
 import Image from "next/image"
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
-import { RiJavascriptFill } from "react-icons/ri";
 import GithubLastUpdate from "@/app/components/github_last_update";
 import Link from "next/link";
 
@@ -14,21 +13,10 @@ const PersonalWeb = () => {
             <NavBar 
             btn1Text="home"
             btn1Url="/"
-            btn2Text="projects"
-            btn2Url="/"
             />
 
             <div id="parent" className="flex flex-row mt-10 relative border-2 border-black">
 
-                <div id="picture div" className="border-r-2 border-black">
-                    <Image
-                        src="/photos/qr-code.png"
-                        width={500} 
-                        height={500} 
-                        layout="responsive" 
-                        alt={"image of project"}
-                        />
-                </div>
                 <div id="text field" className="w-full">
                     <div className="flex justify-center items-center font-bold text-xl mt-2">
                         <h1>Personal Website</h1>
@@ -60,6 +48,16 @@ const PersonalWeb = () => {
                 </div>
 
             </div>
+            <div id="picture div" className="mt-4">
+                    <Image
+                        src="/photos/qr-code.png"
+                        width={500} 
+                        height={500}
+                        className="w-[30%] border-black border-2"
+                        // layout="responsive" 
+                        alt={"image of project"}
+                        />
+                </div>
         </>
     )
 }

@@ -29,8 +29,6 @@ const FarmWeb  = () => {
             <NavBar 
             btn1Text="home"
             btn1Url="/"
-            btn2Text="projects"
-            btn2Url="/"
             />
 
             <div id="parent" className="flex flex-row mt-10 relative border-2 border-black">
@@ -68,7 +66,10 @@ const FarmWeb  = () => {
                     </div>
 
                     <div className="bg-blue-500 w-fit p-1 rounded-lg text-white font-semibold mt-4 ml-[47%] hover:bg-blue-400">
-                        <Link href={"/"}>Visit the site</Link>
+                        <Link
+                        href={"https://farm-web-psi.vercel.app/"}
+                        target="_blank"
+                        >Visit the site</Link>
                     </div>
 
                     <div className="bg-[#666666] text-white text-[20px] absolute bottom-4 w-[50%] text-center ml-[17%] rounded-lg font-semibold">
