@@ -88,6 +88,16 @@ const Skills = () => {
             </div>
 
             <div className="ml-4 flex flex-col items-center">
+                
+                <SiNextdotjs 
+                size={iconSize}
+                color="#000000"
+                />
+
+                <h4>Next.js</h4>
+            </div>
+
+            <div className="ml-4 flex flex-col items-center">
             <FaGithub 
             size={iconSize}
             color="#666666"
