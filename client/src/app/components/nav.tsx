@@ -24,15 +24,15 @@ const NavBar: React.FC<Props> = ({btn1Text, btn1Url}) => {
                 <h1 className='mt-3'>Isaiahmartin.dev</h1>
             </div>
             <div className="flex justify-end mr-6 w-fit">  
-                <Link href={btn1Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
+                <Link href={btn1Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-400 navButtons'>
                     <h1>{btn1Text}</h1>
                 </Link>
-                <button className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons' onClick={() => {
+                <button className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-400 navButtons' onClick={() => {
                     setVisible(!visible)
                 }}>
                     <h1>Projects</h1>
                 </button>
-                <Link href='https://github.com/isaiahmartin847?tab=overview&from=2024-04-01&to=2024-04-24' target='_blank' className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-300 navButtons'>
+                <Link href='https://github.com/isaiahmartin847?tab=overview&from=2024-04-01&to=2024-04-24' target='_blank' className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-400 navButtons'>
                     <h1>Github</h1>
                 </Link>
             </div>
