@@ -7,7 +7,7 @@ import Loading from "./loading";
 
 type Props = {
   repo: string 
-  delay?: number
+  delay?: number 
 }
 
 const GithubLastUpdate = ({repo, delay}: Props) => {

@@ -13,7 +13,6 @@ export default function Home() {
       <NavBar
       btn1Text="Resume"
       btn1Url="/resume"
-
       />
       <AboutMe></AboutMe>
       <h1 className="text-center font-bold text-3xl mt-[10vh]">Projects</h1>
