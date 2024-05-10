@@ -61,6 +61,7 @@ const ProjectProp = ({title, github, photoPath, skills, text}: Props) => {
                     <ul className="list-disc flex">
                     <Skills 
                     skills={skills}/>
+                    
                     </ul>
                     </div>
                 </div> 
