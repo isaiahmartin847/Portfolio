@@ -10,6 +10,7 @@ const PersonalTitleAndDescription = () => {
             <div className="font-bold text-center bg-[#555C61] rounded absolute inset-x-0 bottom-4 text-white text-md border-2 border-black">
                 <GithubLastUpdate
                 repo="personal_web"
+                delay={1000}
                 />
             </div>
         </div>

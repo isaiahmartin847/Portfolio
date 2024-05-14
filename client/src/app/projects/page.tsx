@@ -7,8 +7,6 @@ export default function () {
             <NavBar
             btn1Text="Home"
             btn1Url="/"
-            btn2Text="Resume"
-            btn2Url="/resume"
             />
 
             <ProjectProp 
