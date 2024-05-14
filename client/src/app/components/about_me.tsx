@@ -2,7 +2,7 @@ import React from 'react'
 import { SiNextdotjs, SiTailwindcss, SiMysql } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
-import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaGithub } from "react-icons/fa";
+import { FaGlassCheers, FaReact, FaPython, FaNodeJs, FaGithub } from "react-icons/fa";
 
 
 
@@ -10,15 +10,18 @@ import { FaReact, FaPython, FaHtml5, FaNodeJs, FaCss3Alt, FaGithub } from "react
 
 
 export default function AboutMe () {
-    
     return (
         <>
-
-            <div className=' mt-[8vh] mr-[10vw] ml-[10vw] border-2 border-slate-600 rounded-lg pb-6'>                    
+            <div className='mt-[8vh] mr-[10vw] ml-[10vw] border-2 border-slate-600 rounded-lg pb-6'>                    
                 <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Full Stack Engineer</h1>
                 <div>
-                    <div className=' w-fit ml-28 pr-10 mt-10'>
-                    <p className='text-xl'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius pariatur in numquam atque animi minima temporibus quas voluptas inventore reprehenderit esse asperiores consectetur, voluptatibus ut, quod quia beatae deleniti molestiae similique obcaecati nisi! Suscipit impedit beatae aut. Deleniti, incidunt rerum! Quidem rem voluptate, atque illum laudantium animi doloribus quibusdam placeat fuga alias. Voluptate dolore perferendis suscipit quod voluptatibus recusandae explicabo eum id ullam iste omnis ut distinctio eligendi neque magnam doloremque rerum, quo itaque nulla nisi inventore. Odit adipisci doloremque incidunt ipsa tempore, id soluta voluptas. Nam qui possimus facilis magnam saepe provident rerum quisquam excepturi, quos laboriosam temporibus debitis.</p>
+                    <div className='w-fit ml-28 pr-10 mt-10'>
+                        <div className='flex flex-col'>
+                            <div className='flex items-center space-x-2'>
+                                <p className='text-xl'>Hi, I'm Isaiah. I'm a highly motivated Full Stack Engineer focusing on front-end development. I've worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing full-stack applications. After completing Harvard's website development class, I shifted my focus to Next.js and React with TypeScript, and since then, I've never looked back. I've built and deployed multiple full-stack applications for local companies. Have a look around, cheers</p>
+                                <span><FaGlassCheers size={25} className=''/></span>
+                            </div>
+                        </div>
                     </div> 
                     <div>
                         <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold'>Tech Stack</h1>
@@ -64,8 +67,6 @@ export default function AboutMe () {
                     </div>   
                 </div>   
             </div>
-        
         </>
     )
 }
-
