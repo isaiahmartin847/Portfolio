@@ -42,7 +42,7 @@ const PersonalWeb = () => {
                 </div>
 
             </div>
-            <div id="picture div" className="mt-4">
+            <div className="mt-4">
                     <Image
                         src="/photos/personal.png"
                         width={500} 
@@ -51,7 +51,28 @@ const PersonalWeb = () => {
                         // layout="responsive" 
                         alt={"image of project"}
                         />
-                </div>
+            </div>
+            <div className="mt-4">
+                    <Image
+                        src="/photos/personal-project-nav.png"
+                        width={500} 
+                        height={500}
+                        className="w-[30%] border-black border-2"
+                        // layout="responsive" 
+                        alt={"image of project"}
+                        />
+            </div>
+            <div id="picture div" className="mt-4">
+                    <Image
+                        src="/photos/personal-project-resume.png"
+                        width={500} 
+                        height={500}
+                        className="w-[30%] border-black border-2"
+                        // layout="responsive" 
+                        alt={"image of project"}
+                        />
+            </div>
+            
         </>
     )
 }
