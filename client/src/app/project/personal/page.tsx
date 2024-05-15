@@ -42,7 +42,7 @@ const PersonalWeb = () => {
                 </div>
 
             </div>
-            <div className="mt-4">
+            <div className="mt-4 flex ml-2 mr-2 justify-between">
                     <Image
                         src="/photos/personal.png"
                         width={500} 
@@ -51,9 +51,8 @@ const PersonalWeb = () => {
                         // layout="responsive" 
                         alt={"image of project"}
                         />
-            </div>
-            <div className="mt-4">
-                    <Image
+
+                        <Image
                         src="/photos/personal-project-nav.png"
                         width={500} 
                         height={500}
@@ -61,9 +60,8 @@ const PersonalWeb = () => {
                         // layout="responsive" 
                         alt={"image of project"}
                         />
-            </div>
-            <div id="picture div" className="mt-4">
-                    <Image
+
+                        <Image
                         src="/photos/personal-project-resume.png"
                         width={500} 
                         height={500}
@@ -72,6 +70,7 @@ const PersonalWeb = () => {
                         alt={"image of project"}
                         />
             </div>
+
             
         </>
     )
