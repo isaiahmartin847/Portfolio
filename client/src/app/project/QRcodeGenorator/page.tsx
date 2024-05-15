@@ -30,10 +30,7 @@ const QRCodeProject = () => {
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequuntur aperiam, ullam harum sint repellendus
-                            rerum deserunt neque magnam qui provident exercitationem iste perspiciatis esse nobis natus ut quaerat molestias
-                            mollitia placeat. Molestias quo eius labore magni placeat ipsam, tempora consequatur. Libero aliquid animi minus
-                            illo, eveniet soluta vel facere debitis vero? Quaerat quia nisi delectus, omnis ipsam dolore eaque consequuntur
+                        My QR code generator project is a testament to the basics. It's important to me to peel off all the modern frameworks and build websites with three tried and true technologies to fully understand what's under the hood of all these frameworks. These days, I feel like everyone is chasing the newest framework and the next big thing. While this is a good thing for the industry, there are a lot of people out there who don’t understand the basics and the underlying principles that all the frameworks are built upon.
                         </p>
                     </div>
                     <div>

@@ -24,13 +24,7 @@ const PersonalWeb = () => {
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequuntur aperiam, ullam harum sint repellendus
-                            rerum deserunt neque magnam qui provident exercitationem iste perspiciatis esse nobis natus ut quaerat molestias
-                            mollitia placeat. Molestias quo eius labore magni placeat ipsam, tempora consequatur. Libero aliquid animi minus
-                            illo, eveniet soluta vel facere debitis vero? Quaerat quia nisi delectus, omnis ipsam dolore eaque consequuntur
-                            laborum assumenda aliquid, facilis consectetur nobis fuga necessitatibus. Reiciendis nulla vitae doloribus
-                            minus. Debitis doloribus unde porro dolores nostrum aliquam maiores voluptate, repellendus 
-                            est nobis ea eaque laboriosam possimus temporibus ab fugiat laudantium blanditiis repellat ipsa error nulla sed?
+                        My portfolio project is one of my favorites. It's a website where I can show more personality and passion for coding. This website was created with cutting-edge front-end technology. I had a lot of fun with this project; for instance, I used GitHub's RESTful API to get the latest pushes on all my GitHub projects and utilized React Icons to display my skills in an intuitive way.
                         </p>
                     </div>
                     <div>
@@ -50,7 +44,7 @@ const PersonalWeb = () => {
             </div>
             <div id="picture div" className="mt-4">
                     <Image
-                        src="/photos/qr-code.png"
+                        src="/photos/personal.png"
                         width={500} 
                         height={500}
                         className="w-[30%] border-black border-2"

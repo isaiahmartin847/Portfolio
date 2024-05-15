@@ -49,13 +49,7 @@ const FarmWeb  = () => {
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequuntur aperiam, ullam harum sint repellendus
-                            rerum deserunt neque magnam qui provident exercitationem iste perspiciatis esse nobis natus ut quaerat molestias
-                            mollitia placeat. Molestias quo eius labore magni placeat ipsam, tempora consequatur. Libero aliquid animi minus
-                            illo, eveniet soluta vel facere debitis vero? Quaerat quia nisi delectus, omnis ipsam dolore eaque consequuntur
-                            laborum assumenda aliquid, facilis consectetur nobis fuga necessitatibus. Reiciendis nulla vitae doloribus
-                            minus. Debitis doloribus unde porro dolores nostrum aliquam maiores voluptate, repellendus 
-                            est nobis ea eaque laboriosam possimus temporibus ab fugiat laudantium blanditiis repellat ipsa error nulla sed?
+                        The Covenant Gardens Farm website was created to offer shoppers an alternative way to select products without relying on physical pamphlets, saving the farm hundreds of dollars on printing and folding costs. I began by developing the front end of the application using the latest frontend technologies, including React, Next.js, JavaScript, Tailwind, and CSS. Once the front end was completed, I proceeded to implement the backend using Node.js and Express for the REST API. After finalizing the routing, I integrated it with a relational database called MySQL to manage products, users, and users cart. Additionally, I utilized version control using GitHub to maintain high code standards and for project management purposes.                                                                                                                                                                                                
                         </p>
                     </div>
                     <div>
