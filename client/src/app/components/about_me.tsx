@@ -18,7 +18,7 @@ export default function AboutMe () {
                     <div className='w-fit ml-28 pr-10 mt-10'>
                         <div className='flex flex-col'>
                             <div className='flex items-center space-x-2'>
-                                <p className='text-xl'>Hi, I'm Isaiah. I'm a highly motivated Full Stack Engineer focusing on front-end development. I've worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing full-stack applications. After completing Harvard's website development class, I shifted my focus to Next.js and React with TypeScript, and since then, I've never looked back. I've built and deployed multiple full-stack applications for local companies. Have a look around, cheers</p>
+                                <p className='text-xl'>Hi, I'm Isaiah. I'm a highly motivated Full Stack Engineer focusing on front-end development. I've worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing full-stack applications. After completing Harvard's website development class, I shifted my focus to Next.js and React with TypeScript. I've built and deployed multiple full-stack applications for local companies. Have a look around, cheers</p>
                                 <span><FaGlassCheers size={25} className=''/></span>
                             </div>
                         </div>
