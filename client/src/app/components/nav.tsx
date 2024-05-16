@@ -7,7 +7,6 @@ import { useState } from 'react';
 type Props = {
     btn1Text: string
     btn1Url: string
-
 }
 
 

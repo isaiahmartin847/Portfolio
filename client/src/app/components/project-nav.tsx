@@ -1,7 +1,7 @@
 "use client"
 
 import ProjectLink from "./project-link"
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 
 type Props = {
     visible: boolean
