@@ -9,8 +9,7 @@ const Home = () => {
             <NavBar
             btn1Text="Home"
             btn1Url="/"
-            btn2Text="Projects"
-            btn2Url="#"
+
             />
             <ShowPdf />
             <DownloadBtn />
