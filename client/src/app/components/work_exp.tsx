@@ -1,11 +1,9 @@
 
-import { useEffect, useState } from "react";
-import { ConstantMovementBar } from "./test_animate";
 import AnimatedLogos from "./animated_logos";
 
 
 
-export default function () {
+export default function WorkExperience () {
 
 
     return (

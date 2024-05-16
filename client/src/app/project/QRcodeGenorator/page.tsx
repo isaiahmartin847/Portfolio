@@ -30,7 +30,7 @@ const QRCodeProject = () => {
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
-                        My QR code generator project is a testament to the basics. It's important to me to peel off all the modern frameworks and build websites with three tried and true technologies to fully understand what's under the hood of all these frameworks. These days, I feel like everyone is chasing the newest framework and the next big thing. While this is a good thing for the industry, there are a lot of people out there who don’t understand the basics and the underlying principles that all the frameworks are built upon.
+                        My QR code generator project is a testament to the basics. Itapos;s important to me to peel off all the modern frameworks and build websites with three tried and true technologies to fully understand whatapos;s under the hood of all these frameworks. These days, I feel like everyone is chasing the newest framework and the next big thing. While this is a good thing for the industry, there are a lot of people out there who don’t understand the basics and the underlying principles that all the frameworks are built upon.
                         </p>
                     </div>
                     <div>

@@ -24,7 +24,7 @@ const PersonalWeb = () => {
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
-                        My portfolio project is one of my favorites. It's a website where I can show more personality and passion for coding. This website was created with cutting-edge front-end technology. I had a lot of fun with this project; for instance, I used GitHub's RESTful API to get the latest pushes on all my GitHub projects and utilized React Icons to display my skills in an intuitive way.
+                        My portfolio project is one of my favorites. Itapos;s a website where I can show more personality and passion for coding. This website was created with cutting-edge front-end technology. I had a lot of fun with this project; for instance, I used GitHubapos;s RESTful API to get the latest pushes on all my GitHub projects and utilized React Icons to display my skills in an intuitive way.
                         </p>
                     </div>
                     <div>
