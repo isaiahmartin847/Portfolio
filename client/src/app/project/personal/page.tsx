@@ -4,7 +4,7 @@ import Image from "next/image"
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 import GithubLastUpdate from "@/app/components/github_last_update";
-import Link from "next/link";
+// import Link from "next/link";
 
 
 const PersonalWeb = () => {
