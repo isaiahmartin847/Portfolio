@@ -16,9 +16,9 @@ export default function MyProjects () {
     return (
         <>
             <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                    <FarmImg />
-                    <FarmTitleAndDescription />
-                    <FarmTechStack />
+                <FarmImg />
+                <FarmTitleAndDescription />
+                <FarmTechStack />
             </div>
 
             <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
