@@ -1,4 +1,3 @@
-import React from 'react'
 import { SiNextdotjs, SiTailwindcss, SiMysql } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -18,7 +17,7 @@ export default function AboutMe () {
                     <div className='w-fit ml-28 pr-10 mt-10'>
                         <div className='flex flex-col'>
                             <div className='flex items-center space-x-2'>
-                                <p className='text-xl'>Hi, I&apos;m Isaiah. I&apos;m a highly motivated Full Stack Engineer focusing on front-end development. I&apos;ve worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing, full-stack applications. After completing Harvard's website development class, I shifted my focus to Next.js and React with TypeScript. I&apos;ve built and deployed multiple full-stack applications for local companies. Have a look around, cheers.</p>
+                                <p className='text-xl'>Hi, I&apos;m Isaiah. I&apos;m a highly motivated Full Stack Engineer focusing on front-end development. I&apos;ve worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing, full-stack applications. After completing Harvard&apos;s website development class, I shifted my focus to Next.js and React with TypeScript. I&apos;ve built and deployed multiple full-stack applications for local companies. Have a look around, cheers.</p>
                                 {/* <span><FaGlassCheers size={25} className=''/></span> */}
                             </div>
                         </div>
@@ -32,11 +31,11 @@ export default function AboutMe () {
                             </div>
                             <div className='p-1'> 
                                 <BiLogoTypescript size='5rem' color='#3178c6'/>
-                                <p className='text-center font-serif '>Type Script</p>
+                                <p className='text-center font-serif '>TypeScript</p>
                             </div>
                             <div className='p-1'>
                                 <RiJavascriptFill size='5rem' color='#f0db4f'/>
-                                <p className='text-center font-serif '>Java Script</p>
+                                <p className='text-center font-serif '>JavaScript</p>
                             </div>
                             <div className='p-1'>
                                 <SiNextdotjs size='5rem' color='#000000'/>
