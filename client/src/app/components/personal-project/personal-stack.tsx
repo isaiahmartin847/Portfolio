@@ -1,5 +1,5 @@
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiNodedotjs } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiNodedotjs, SiVercel } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 
 
@@ -12,6 +12,7 @@ const PersonalTechStack = () => {
                     <li><div className="flex text-xl"><BiLogoTypescript color='#3178c6' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/>Type Script</div></li>
                     <li><div className="flex text-xl"><SiNextdotjs color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Next.js</div></li>
                     <li><div className="flex text-xl"><SiNodedotjs color='#68A063' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Node.js</div></li>
+                    <li><div className="flex text-xl"><SiVercel color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Vercel</div></li>
                     <li><div className="flex text-xl"><SiTailwindcss color='#3490dc' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Tailwind</div></li>
                     <li><div className="flex text-xl"><FaGithub color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> GitHub</div></li>
                     <li><div className="flex text-xl"><FaCss3Alt color='#087ea4' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> CSS</div></li>

@@ -1,5 +1,5 @@
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiNodedotjs } from "react-icons/si";
+import { SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiNodedotjs, SiVercel } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 
 
@@ -12,6 +12,7 @@ const FarmTechStack = () => {
                     <li><div className="flex text-xl"><RiJavascriptFill color='#f0db4f' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Java Script</div></li>
                     <li><div className="flex text-xl"><SiNextdotjs color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Next.js</div></li>
                     <li><div className="flex text-xl"><SiNodedotjs color='#68A063' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Node.js</div></li>
+                    <li><div className="flex text-xl"><SiVercel color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Vercel</div></li>
                     <li><div className="flex text-xl"><SiTailwindcss color='#3490dc' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Tailwind</div></li>
                     <li><div className="flex text-xl"><SiMysql color='#264de4' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> MySQL</div></li>
                     <li><div className="flex text-xl"><SiExpress color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Express</div></li>
