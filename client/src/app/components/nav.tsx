@@ -18,11 +18,11 @@ const NavBar: React.FC<Props> = ({btn1Text, btn1Url}) => {
 
 
     return (
-        <div className="bg-blue-500 flex justify-between text-white  w-full">
-            <div className=" ml-6 w-fit text-xl font-bold">
+        <div className="bg-blue-500 w-full flex flex-col text-white md:flex-row md:justify-between">
+            <div className="text-center text-xl font-bold md:ml-6 md:w-fit">
                 <h1 className='mt-3'>Isaiahmartin.dev</h1>
             </div>
-            <div className="flex justify-end mr-6 w-fit">  
+            <div className="flex justify-center md:justify-end md:mr-6 md:w-fit">  
                 <Link href={btn1Url} className='bg-blue-600 p-2 m-2 rounded hover:bg-blue-400 navButtons'>
                     <h1>{btn1Text}</h1>
                 </Link>
