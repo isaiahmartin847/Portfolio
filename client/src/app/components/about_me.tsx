@@ -19,8 +19,8 @@ export default function AboutMe () {
                     </div> 
                     <div>
                         <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold'>Tech Stack</h1>
-                        <div className='flex'>
-                            <div className='pl-6 p-1'>
+                        <div className='flex flex-wrap'>
+                            <div className='p-1 md:pl-6'>
                                 <FaReact size='5rem' color='#087ea4'/>
                                 <p className='text-center font-serif'>React</p>
                             </div>
@@ -56,7 +56,26 @@ export default function AboutMe () {
                             <div className='p-1 pr-6'>
                                 <FaGithub size='5rem' color='#000000'/>
                                 <p className='text-center font-serif '>Github</p>
+                            </div> 
+                        {/* </div>
+{/* 
+                        <div className="flex flex-wrap">
+                            <div className='border-black border-2 w-fit pr-44'>
+                                <FaGithub size='5rem' color='#000000'/>
+                                <p className='text-center font-serif '>Github</p>
                             </div>
+                            <div className='border-black border-2 w-fit'>
+                                <FaGithub size='5rem' color='#000000'/>
+                                <p className='text-center font-serif '>Github</p>
+                            </div>
+                            <div className='border-black border-2 w-fit'>
+                                <FaGithub size='5rem' color='#000000'/>
+                                <p className='text-center font-serif '>Github</p>
+                            </div>
+                            <div className='border-black border-2 w-fit'>
+                                <FaGithub size='5rem' color='#000000'/>
+                                <p className='text-center font-serif '>Github</p>
+                            </div>  */}
                         </div>
                     </div>   
                 </div>   
