@@ -11,8 +11,8 @@ import { FaGlassCheers, FaReact, FaPython, FaNodeJs, FaGithub } from "react-icon
 export default function AboutMe () {
     return (
         <>
-            <div className='mt-[8vh] mr-[10vw] ml-[10vw] border-2 border-slate-600 rounded-lg pb-6'>                    
-                <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Full Stack Engineer</h1>
+            <div className='mt-[8vh] border-2 border-slate-600 rounded-lg ml-2 mr-2 pb-6 md:mr-[10vw] md:ml-[10vw]'>                    
+                <h1 className='text-5xl p-4 ml-6'>Isaiah Martin <span className="text-blue-500">&bull;</span> Full Stack Engineer</h1>
                 <div>
                     <div className='w-fit ml-28 pr-10 mt-10'>
                         <div className='flex flex-col'>
