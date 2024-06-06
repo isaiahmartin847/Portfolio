@@ -1,5 +1,7 @@
 // import { Margarine } from "next/font/google";
 "use client"
+
+import useWindowWidth from "../hooks/useWidth";
 import FarmImg from "./farm-project/farm-img";
 import FarmTechStack from "./farm-project/farm-stack";
 import FarmTitleAndDescription from "./farm-project/farm-title";
@@ -13,8 +15,13 @@ import QrCodeDescription from "./qrcode-project/qr-title";
 
 export default function MyProjects () {
 
+    const windowWidth: number = useWindowWidth()
 
-    if(window.innerWidth > 760){
+  
+  
+
+
+    if(windowWidth > 750){
         return (
             <>
     
