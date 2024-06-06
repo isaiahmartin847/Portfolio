@@ -1,7 +1,19 @@
+import Image from "next/image";
+
+
 const FarmImg = () => {
     return (
-        <div className=" w-1/4 p-3">
-            <img className="border-2 border-black rounded-[20px]" src="/photos/farmweb.png"/>
+        <div className="flex items-center justify-center mt-2 md:m-2">
+            <div className="w-fit border-black border-2 flex items-center justify-center">
+                <Image 
+                src="/photos/farmweb.png"
+                width={300}
+                height={300}
+                alt="Image of project"
+                priority={true}
+
+                />
+            </div>
         </div>
     )
 }

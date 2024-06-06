@@ -1,5 +1,5 @@
-// import { Margarine } from "next/font/google";
-
+"use client"
+import useWindowWidth from "../hooks/useWidth";
 import FarmImg from "./farm-project/farm-img";
 import FarmTechStack from "./farm-project/farm-stack";
 import FarmTitleAndDescription from "./farm-project/farm-title";
@@ -12,27 +12,66 @@ import QrCodeDescription from "./qrcode-project/qr-title";
 
 
 export default function MyProjects () {
+
+    const windowWidth: number = useWindowWidth()
+
+  
+  
+
+    if(windowWidth === 0) {
+        return (
+            <>
+            </>
+        )
+    } else if(windowWidth > 750){
+        return (
+            <>
     
-    return (
-        <>
-            <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                <FarmImg />
-                <FarmTitleAndDescription />
-                <FarmTechStack />
-            </div>
+                <div className="flex flex-wrap border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-nowrap">
+                    <FarmImg />
+                    <FarmTitleAndDescription />
+                    <FarmTechStack />
+                </div>
+    
+    
+                <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
+                    <PersonalProjectImg />
+                    <PersonalTitleAndDescription />
+                    <PersonalTechStack />
+                </div>
+    
+                <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
+                    <QrcodeProjectImg />
+                    <QrCodeDescription />
+                    <QRCodeTechStack />
+                </div>
+    
+            </>
+        )
+    } else {
+        return (
+            <>
+                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
+                    <FarmTitleAndDescription />
+                    <FarmImg />
+                    <FarmTechStack />
+                </div>
+    
+    
+                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
+                    <PersonalTitleAndDescription />
+                    <PersonalProjectImg />
+                    <PersonalTechStack />
+                </div>
+    
+                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
+                    <QrCodeDescription />
+                    <QrcodeProjectImg />
+                    <QRCodeTechStack />
+                </div>
+    
+            </>
+        )
+    }
 
-            <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                <PersonalProjectImg />
-                <PersonalTitleAndDescription />
-                <PersonalTechStack />
-            </div>
-
-            <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                <QrcodeProjectImg />
-                <QrCodeDescription />
-                <QRCodeTechStack />
-            </div>
-
-        </>
-    )
 }
