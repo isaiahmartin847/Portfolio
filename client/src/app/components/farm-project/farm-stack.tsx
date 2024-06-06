@@ -8,7 +8,7 @@ const FarmTechStack = () => {
 
             <div className="md:w-1/4">
             <h1 className="text-center text-lg font-bold">tech stack</h1>
-            <div className="ml-4 flex flex-wrap md:flex-nowrap md:flex-col">
+            <div className="ml-4 mr-4 justify-between flex flex-wrap md:flex-nowrap md:flex-col">
                 <div className="flex text-xl"><FaReact color='#087ea4' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> react.js</div>
                 <div className="flex text-xl"><RiJavascriptFill color='#f0db4f' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> JavaScript</div>
                 <div className="flex text-xl"><SiNextdotjs color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Next.js</div>
