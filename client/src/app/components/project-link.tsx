@@ -10,13 +10,15 @@ type Props = {
 
 const ProjectLink: React.FC<Props> = ({url, title}) => {
     return (
-        <Link 
-        href={url}
-        >
-            <div className='border-black border-2 w-[500px] p-4 rounded-lg hover:bg-blue-400 mt-4'>
-                    <h1 className='text-black text-center font-semibold'>{title}</h1>
-            </div>
-        </Link>
+        <div className="flex justify-center">
+            <Link 
+            href={url}
+            >
+                <div className='border-black border-2 p-4 mt-4 rounded-lg w-[250px] md:w-[500px] hover:bg-blue-400'>
+                        <h1 className='text-black text-center font-semibold'>{title}</h1>
+                </div>
+            </Link>
+        </div>
     )
 }
 
