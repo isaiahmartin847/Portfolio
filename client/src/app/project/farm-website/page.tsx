@@ -1,9 +1,8 @@
 "use client"
 
-
+import useWindowWidth from "@/app/hooks/useWidth"
 import NavBar from "@/app/components/nav"
 import Image from "next/image"
-import { useEffect, useState } from "react"
 import { FaReact,  FaCss3Alt, FaGithub } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiNodedotjs } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -12,18 +11,9 @@ import Link from "next/link";
 
 
 const FarmWeb  = () => {
-    const [vh, setVh] = useState<number>(0)
-    const [vw, setVw] = useState<number>(0)
+    const windowWidth: number = useWindowWidth()
 
-    useEffect(() => {
-        const aspectRatio = 16 / 9; // Example aspect ratio
-        setVh(() => {
-            return Math.floor(window.innerHeight) // Adjusted to use full viewport height
-        }) 
-        setVw(() => {
-            return Math.floor(window.innerHeight * aspectRatio)
-        }) 
-    }, [])
+
     return (
         <>
             <NavBar 
@@ -31,46 +21,51 @@ const FarmWeb  = () => {
             btn1Url="/"
             />
 
-            <div id="parent" className="flex flex-row mt-10 relative border-2 border-black">
+            <div className="mb-2 flex flex-col ml-2 mr-2 mt-10 relative border-2 border-black md:flex-row md:ml-0 md:mr-0">
 
-                <div id="picture div" className="border-r-2 border-black">
-                    <Image
-                        src="/photos/farmweb.png"
-                        width={vw} // Width calculated based on the aspect ratio
-                        height={vh} // Set height to full viewport height
-                        layout="responsive" // Image will scale both width and height while maintaining aspect ratio
-                        alt={"image of project"}
-                        />
-                </div>
                 <div id="text field" className="w-full">
                     <div className="flex justify-center items-center font-bold text-xl mt-2">
                         <h1>Farm Website</h1>
                     </div>
+
                     <div className="ml-[15%] mr-[15%] mt-4">
                         <h1 className="font-bold text-lg border-b-2 border-black border-w-2">About</h1>
                         <p className="ml-5">
                         The Covenant Gardens Farm website was created to offer shoppers an alternative way to select products without relying on physical pamphlets, saving the farm hundreds of dollars on printing and folding costs. I began by developing the front end of the application using the latest frontend technologies, including React, Next.js, JavaScript, Tailwind, and CSS. Once the front end was completed, I proceeded to implement the backend using Node.js and Express for the REST API. After finalizing the routing, I integrated it with a relational database called MySQL to manage products, users, and users cart. Additionally, I utilized version control using GitHub to maintain high code standards and for project management purposes.                                                                                                                                                                                                
                         </p>
                     </div>
-                    <div>
+
+                    <div className="mb-4">
                         <h1 className="text-[20px] text-center mt-10 mb-2 font-mono">Skills</h1>
-                        <div id="skills" className="ml-[20%] mr-[20%] border-t-2 border-b-2 border-blue-300 flex flex-row items-center justify-center h-20"> 
+                        <div className=""> 
                             <Skills />
                         </div>  
                     </div>
 
-                    <div className="bg-blue-500 w-fit p-1 rounded-lg text-white font-semibold mt-4 ml-[47%] hover:bg-blue-400">
-                        <Link
-                        href={"https://farm-web-psi.vercel.app/"}
-                        target="_blank"
-                        >Visit the site</Link>
+                    <div className="flex justify-center">
+                        <div className="bg-blue-500 w-fit p-1 rounded-lg text-white font-semibold mb-4 hover:bg-blue-400">
+                            <Link
+                            href={"https://farm-web-psi.vercel.app/"}
+                            target="_blank"
+                            >Visit the site</Link>
+                        </div>
                     </div>
 
-                    <div className="bg-[#666666] text-white text-[20px] absolute bottom-4 w-[50%] text-center ml-[17%] rounded-lg font-semibold">
+                    <div className="bg-[#666666] text-white text-[20px] text-center rounded-lg font-semibold ml-2 mr-2">
                         <GithubLastUpdate 
                         repo="farm-web"
                         />
                     </div>
+                </div>
+                <div className="mb-4 border-black border-2 rounded-xl ml-2 mr-2 mt-4 md:ml-2 md:mr-2  md:border-l-2 md:border-black">
+                    <Image
+                        src="/photos/farmweb.png"
+                        width={windowWidth}
+                        height={500} 
+                        layout="responsive" 
+                        alt={"image of project"}
+                        className="rounded-xl"
+                        />
                 </div>
 
             </div>
@@ -82,7 +77,7 @@ const FarmWeb  = () => {
 const Skills = () => {
     const iconSize: number = 50
     return (
-        <div className="flex">
+        <div className=" ml-[20%] mr-[20%] border-t-2 border-b-2 border-blue-300 flex flex-wrap items-center justify-center">
             
             <div className="ml-4 flex flex-col items-center">
                 <FaReact 
