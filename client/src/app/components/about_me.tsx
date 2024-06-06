@@ -19,7 +19,7 @@ export default function AboutMe () {
                     </div> 
                     <div>
                         <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold'>Tech Stack</h1>
-                        <div className='flex flex-wrap'>
+                        <div className='ml-[5vw] flex flex-wrap'>
                             <div className='p-1 md:pl-6'>
                                 <FaReact size='5rem' color='#087ea4'/>
                                 <p className='text-center font-serif'>React</p>
