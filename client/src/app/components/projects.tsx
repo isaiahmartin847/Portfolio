@@ -1,6 +1,4 @@
-// import { Margarine } from "next/font/google";
 "use client"
-
 import useWindowWidth from "../hooks/useWidth";
 import FarmImg from "./farm-project/farm-img";
 import FarmTechStack from "./farm-project/farm-stack";
