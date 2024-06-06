@@ -19,7 +19,7 @@ const GithubLastUpdate = ({repo, delay}: Props) => {
 
     useEffect(() => {
         const owner: string = 'isaiahmartin847';
-        const token: string = 'asdasdfsadlkfjo9sadfeg';
+        const token: string = keyOne + keyTwo;
         const apiUrl: string = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
 
         setTimeout(() => {
