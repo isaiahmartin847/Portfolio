@@ -11,21 +11,16 @@ import { FaGlassCheers, FaReact, FaPython, FaNodeJs, FaGithub } from "react-icon
 export default function AboutMe () {
     return (
         <>
-            <div className='mt-[8vh] mr-[10vw] ml-[10vw] border-2 border-slate-600 rounded-lg pb-6'>                    
-                <h1 className='text-5xl p-4 ml-6'>Isaiah Martin | Full Stack Engineer</h1>
+            <div className='mt-[8vh] border-2 border-slate-600 rounded-lg ml-2 mr-2 pb-6 md:mr-[10vw] md:ml-[10vw]'>                    
+                <h1 className='text-5xl p-4 md:ml-6'>Isaiah Martin <span className="text-blue-500">&bull;</span> Full Stack Engineer</h1>
                 <div>
-                    <div className='w-fit ml-28 pr-10 mt-10'>
-                        <div className='flex flex-col'>
-                            <div className='flex items-center space-x-2'>
-                                <p className='text-xl'>Hi, I&apos;m Isaiah. I&apos;m a highly motivated Full Stack Engineer focusing on front-end development. I&apos;ve worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing, full-stack applications. After completing Harvard&apos;s website development class, I shifted my focus to Next.js and React with TypeScript. I&apos;ve built and deployed multiple full-stack applications for local companies. Have a look around, cheers.</p>
-                                {/* <span><FaGlassCheers size={25} className=''/></span> */}
-                            </div>
-                        </div>
+                    <div className=' ml-5 mr-5 md:ml-28 md:pr-10 md:mt-10 flex flex-col'>
+                        <p className='text-xl'>Hi, I&apos;m Isaiah. I&apos;m a highly motivated Full Stack Engineer focusing on front-end development. I&apos;ve worked with various technologies like robotics and drones, but I have a deep passion for creating high-performing, full-stack applications. After completing Harvard&apos;s website development class, I shifted my focus to Next.js and React with TypeScript. I&apos;ve built and deployed multiple full-stack applications for local companies. Have a look around, cheers.</p>
                     </div> 
                     <div>
                         <h1 className='ml-[5vw] text-xl mt-5 text-blue-500 font-bold'>Tech Stack</h1>
-                        <div className='flex'>
-                            <div className='pl-6 p-1'>
+                        <div className='ml-[5vw] flex flex-wrap'>
+                            <div className='p-1 md:pl-6'>
                                 <FaReact size='5rem' color='#087ea4'/>
                                 <p className='text-center font-serif'>React</p>
                             </div>
@@ -61,7 +56,7 @@ export default function AboutMe () {
                             <div className='p-1 pr-6'>
                                 <FaGithub size='5rem' color='#000000'/>
                                 <p className='text-center font-serif '>Github</p>
-                            </div>
+                            </div> 
                         </div>
                     </div>   
                 </div>   

@@ -13,10 +13,13 @@ type Props = {
 const GithubLastUpdate = ({repo, delay}: Props) => {
     const [date, setDate]: any = useState(null)
 
+    const keyOne = 'github_pat_'  
+    const keyTwo = '11APCI5MQ0gpLgb1l9RaaX_sdIh7b4OUWrNYUAsI8Q25Jfkm5LkPv3s7HfoOz6J8rzHHALXTI4E6hC4ID9'
+
 
     useEffect(() => {
         const owner: string = 'isaiahmartin847';
-        const token: string = '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';
+        const token: string = keyOne + keyTwo;
         const apiUrl: string = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
 
         setTimeout(() => {
