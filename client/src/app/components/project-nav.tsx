@@ -17,11 +17,12 @@ const ProjectNav: React.FC<Props> = ({visible, setVisible}) => {
     if(visible) {
         return (
             <div className="flex justify-center ml-2 mr-2">
+
                 <div className='flex flex-col justify-center text-center border-black border-2 mt-4 p-4 rounded-xl w-full md:w-fit'>
-                    {/* <div className=''>
-                        <h1 className=''>Choose what project you want to learn more about</h1>
-                    </div> */}
-                    <div className=''>
+                    <div>
+                        <h1 className='font-semibold'>More about projects</h1>
+                    </div>
+                    <div>
             
                         <ProjectLink 
                         title='Farm website'
