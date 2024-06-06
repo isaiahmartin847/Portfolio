@@ -18,8 +18,12 @@ export default function MyProjects () {
   
   
 
-
-    if(windowWidth > 750){
+    if(windowWidth === 0) {
+        return (
+            <>
+            </>
+        )
+    } else if(windowWidth > 750){
         return (
             <>
     
