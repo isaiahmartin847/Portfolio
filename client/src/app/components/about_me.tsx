@@ -57,25 +57,6 @@ export default function AboutMe () {
                                 <FaGithub size='5rem' color='#000000'/>
                                 <p className='text-center font-serif '>Github</p>
                             </div> 
-                        {/* </div>
-{/* 
-                        <div className="flex flex-wrap">
-                            <div className='border-black border-2 w-fit pr-44'>
-                                <FaGithub size='5rem' color='#000000'/>
-                                <p className='text-center font-serif '>Github</p>
-                            </div>
-                            <div className='border-black border-2 w-fit'>
-                                <FaGithub size='5rem' color='#000000'/>
-                                <p className='text-center font-serif '>Github</p>
-                            </div>
-                            <div className='border-black border-2 w-fit'>
-                                <FaGithub size='5rem' color='#000000'/>
-                                <p className='text-center font-serif '>Github</p>
-                            </div>
-                            <div className='border-black border-2 w-fit'>
-                                <FaGithub size='5rem' color='#000000'/>
-                                <p className='text-center font-serif '>Github</p>
-                            </div>  */}
                         </div>
                     </div>   
                 </div>   
