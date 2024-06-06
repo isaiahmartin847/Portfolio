@@ -31,7 +31,7 @@ const ProjectNav: React.FC<Props> = ({visible, setVisible}) => {
 
                         <ProjectLink 
                         title='QRcode Generator'
-                        url="/project/QRcodeGenorator"
+                        url="/project/QRcodeGenerator"
                         />
 
 
