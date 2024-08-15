@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CountdownTimer from "./release_data";
+import CountdownTimer from "./release_date";
 
 
 
@@ -7,8 +7,8 @@ import CountdownTimer from "./release_data";
 const CurrentlyWorkingOnTitle = () => {
     return (
         <div className="w-fit relative">
-            <Link href="/project/farm-website"><h1 className="font-bold text-xl text-center">Dark Mounts</h1></Link>
-            <p className="text-center w-fit mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi error sed iure necessitatibus, dolores at delectus exercitationem impedit optio quaerat. Labore corrupti temporibus aliquam repudiandae hic expedita, dolor eligendi nisi similique laudantium nam inventore doloremque numquam tempore vel maxime, tenetur eveniet architecto facere iusto! Labore officiis consectetur maxime aut ipsam fugiat dolor quia ratione ex a asperiores sunt eius architecto magnam aperiam obcaecati, porro ipsum exercitationem! Porro eligendi similique blanditiis fuga quasi officia magnam corporis? Modi, excepturi. Excepturi minima molestiae libero voluptatibus optio natus, cumque sunt omnis voluptates corrupti asperiores delectus doloremque perspiciatis quod illo alias possimus nihil nam aperiam? Reiciendis explicabo unde tempora non dolore quod repellat dolores possimus accusamus aut odio error nesciunt iure, ex obcaecati saepe assumenda culpa voluptatem atque sapiente. Molestiae veniam quam non quia pariatur omnis repellendus. Aspernatur iusto cumque, in dolorum ea reprehenderit explicabo nisi nesciunt aut consectetur enim rerum porro laborum culpa numquam.</p>
+            <h1 className="font-bold text-xl text-center mt-1">Dark Mounts</h1>
+            <p className="text-center w-fit mt-10">I&apos;m currently developing an e-commerce app for Dark Mounts, a company specializing in modern European mounting systems. For the front end, I chose Next.js and React, with React Query for managing data fetching and caching. FastAPI will power the backend, selected for its rapid development capabilities and built-in Swagger support. I am using MySQL as the database, which is well-suited for managing users, products, orders, and the cart in an e-commerce environment. The backend will be containerized with Docker and deployed to AWS, while Vercel will streamline the deployment of the front end.</p>
             
             <div className="ml-2 mr-2 font-bold text-center bg-[#555C61] rounded text-white text-md border-2 border-black mt-7">
                 <CountdownTimer />
