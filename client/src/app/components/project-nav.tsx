@@ -16,12 +16,12 @@ const ProjectNav: React.FC<Props> = ({visible, setVisible}) => {
 // set this back to visible
     if(visible) {
         return (
-            <div className="absolute bg-white left-1/2 top-1/3 transform -translate-x-1/2 -translate-y-1/2 shadow-lg">
+            <div className="absolute  bg-white left-1/2 top-1/3 transform -translate-x-1/2 -translate-y-1/2 shadow-lg border-black border-2 rounded-lg z-10">
                 {/* flex justify-center ml-2 mr-2 */}
 
-                <div className='flex flex-col justify-center text-center border-black border-2 mt-4 p-4 rounded-xl w-full md:w-fit'>
+                <div className='flex flex-col justify-center text-center mt-4 p-4 rounded-xl w-full md:w-fit'>
                     <div>
-                        <h1 className='font-semibold'>More about projects</h1>
+                        <h1 className='font-semibold'>More about the projects</h1>
                     </div>
                     <div>
             
