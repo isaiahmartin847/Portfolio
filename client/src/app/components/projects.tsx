@@ -16,9 +16,9 @@ export default function MyProjects () {
 
         return (
             <>
-                <div className="flex flex-wrap border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-nowrap">
-                    <FarmImg />
+                <div className="flex flex-col border-2 border-black mx-1  md:mx-[10vw] mt-16 rounded">
                     <FarmTitleAndDescription />
+                    <FarmImg />
                     <FarmTechStack />
                 </div>
     
@@ -29,9 +29,9 @@ export default function MyProjects () {
                     <PersonalTechStack />
                 </div>
     
-                <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                    <QrcodeProjectImg />
+                <div className="flex flex-col border-2 border-black mx-1  md:mx-[10vw] mt-16 rounded">
                     <QrCodeDescription />
+                    <QrcodeProjectImg />
                     <QRCodeTechStack />
                 </div>
     

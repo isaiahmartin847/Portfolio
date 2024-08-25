@@ -6,9 +6,9 @@ import { RiJavascriptFill } from "react-icons/ri";
 const FarmTechStack = () => {
     return (
 
-            <div className="md:w-1/4">
+            <div className="flex flex-col justify-start items-center">
             <h1 className="text-center text-lg font-bold">tech stack</h1>
-            <div className="ml-4 mr-4 justify-between flex flex-wrap md:flex-nowrap md:flex-col">
+            <div className="justify-center space-x-4 flex flex-wrap w-4/5">
                 <div className="flex text-xl"><FaReact color='#087ea4' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> React.js</div>
                 <div className="flex text-xl"><RiJavascriptFill color='#f0db4f' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> JavaScript</div>
                 <div className="flex text-xl"><SiNextdotjs color='#000000' style={{marginTop: 5, marginLeft: 2, marginRight: 2}}/> Next.js</div>
