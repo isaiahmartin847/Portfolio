@@ -13,20 +13,9 @@ import QrCodeDescription from "./qrcode-project/qr-title";
 
 export default function MyProjects () {
 
-    const windowWidth: number = useWindowWidth()
 
-  
-  
-
-    if(windowWidth === 0) {
         return (
             <>
-            </>
-        )
-    } else if(windowWidth > 750){
-        return (
-            <>
-    
                 <div className="flex flex-wrap border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-nowrap">
                     <FarmImg />
                     <FarmTitleAndDescription />
@@ -34,9 +23,9 @@ export default function MyProjects () {
                 </div>
     
     
-                <div className="flex border-2 border-black ml-[10vw] mr-[10vw] mt-16 rounded">
-                    <PersonalProjectImg />
+                <div className="flex flex-col border-2 border-black mx-1  md:mx-[10vw] mt-16 rounded">
                     <PersonalTitleAndDescription />
+                    <PersonalProjectImg />
                     <PersonalTechStack />
                 </div>
     
@@ -48,30 +37,6 @@ export default function MyProjects () {
     
             </>
         )
-    } else {
-        return (
-            <>
-                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
-                    <FarmTitleAndDescription />
-                    <FarmImg />
-                    <FarmTechStack />
-                </div>
-    
-    
-                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
-                    <PersonalTitleAndDescription />
-                    <PersonalProjectImg />
-                    <PersonalTechStack />
-                </div>
-    
-                <div className="ml-2 mr-2 flex flex-col border-2 border-black mt-16 rounded md:ml-[10vw] md:mr-[10vw] md:flex-none md:flex-row">
-                    <QrCodeDescription />
-                    <QrcodeProjectImg />
-                    <QRCodeTechStack />
-                </div>
-    
-            </>
-        )
-    }
+
 
 }
