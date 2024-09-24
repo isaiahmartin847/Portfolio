@@ -14,7 +14,7 @@ const GithubLastUpdate = ({repo, delay}: Props) => {
     const [date, setDate]: any = useState(null)
 
     const keyOne = 'github_pat_'  
-    const keyTwo = '11APCI5MQ0gpLgb1l9RaaX_sdIh7b4OUWrNYUAsI8Q25Jfkm5LkPv3s7HfoOz6J8rzHHALXTI4E6hC4ID9'
+    const keyTwo = '11APCI5MQ0fFXSI48s3DsZ_MXeu7ITaXQVnVxwINjLsLT5MKsNGVFxS66Rn2V293O2FCD6GH6NXUOgqAId'
 
 
     useEffect(() => {
