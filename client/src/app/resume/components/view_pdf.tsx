@@ -1,27 +1,55 @@
-
-// import resume1 from "./public/photos/resume1.png"
-import Image from "next/image"
+'use client'
+import { useState, useEffect } from "react";
+import { PulseLoader } from "react-spinners";
 
 const ShowPdf = () => {
+  const [loading, setLoading] = useState(true);
   const fileId = '1V7reywnGql5HJvwDCvTFp1LWkqbYdPYe';
   const viewerUrl = `https://drive.google.com/file/d/${fileId}/preview`;
 
+  // Handler for when the iframe has loaded
+  const handleIframeLoad = () => {
+    setLoading(false);
+  };
+
+
+  // if(loading) {
+  //   return (
+  //     <div className="flex flex-col justify-center items-center mt-10">
+  //     {/* Replace this with a spinner or custom loading message */}
+  //       <PulseLoader 
+  //       color="#3B82F6"
+  //       /> 
+  //       <p className="font-bold">Loading...</p>
+  //     </div>
+  //   )
+  // }
   return (
-    <iframe
-      src={viewerUrl}
-      width="100%"
-      height="1000px"
-      style={{ border: 'none' }}
-      title="Google Drive File Viewer"
-      sandbox="allow-scripts allow-same-origin allow-popups"
-      loading="lazy"
-    />
+    <div>
+      {loading && (
+        <div className="flex flex-col justify-center items-center mt-10 ">
+          {/* Replace this with a spinner or custom loading message */}
+          <PulseLoader 
+          color="#3B82F6"
+          /> 
+          <p className="font-bold">Loading...</p>
+        </div>
+      )}
+
+
+      <div className="">
+        <iframe
+          src={viewerUrl}
+          width="100%"
+          height="1000px"
+          style={{ border: 'none' }}
+          title="Google Drive File Viewer"
+          sandbox="allow-scripts allow-same-origin allow-popups"
+          onLoad={handleIframeLoad} // Call when iframe is fully loaded
+        />
+      </div>
+    </div>
   );
 };
 
-
-
-
-
-
-export default ShowPdf
+export default ShowPdf;
