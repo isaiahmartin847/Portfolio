@@ -4,8 +4,10 @@ import { PulseLoader } from "react-spinners";
 
 const ShowPdf = () => {
   const [loading, setLoading] = useState(true);
-  const fileId = '1V7reywnGql5HJvwDCvTFp1LWkqbYdPYe';
+  const fileId = '1JAFZBs03UjwVQrb5k3WmfXP5_WnMxoEP';
   const viewerUrl = `https://drive.google.com/file/d/${fileId}/preview`;
+
+  // https://drive.google.com/file/d/1JAFZBs03UjwVQrb5k3WmfXP5_WnMxoEP/view?usp=sharing
 
   // Handler for when the iframe has loaded
   const handleIframeLoad = () => {
