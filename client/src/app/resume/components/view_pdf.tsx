@@ -3,22 +3,22 @@
 import Image from "next/image"
 
 const ShowPdf = () => {
+  const fileId = '1V7reywnGql5HJvwDCvTFp1LWkqbYdPYe';
+  const viewerUrl = `https://drive.google.com/file/d/${fileId}/preview`;
 
+  return (
+    <iframe
+      src={viewerUrl}
+      width="100%"
+      height="1000px"
+      style={{ border: 'none' }}
+      title="Google Drive File Viewer"
+      sandbox="allow-scripts allow-same-origin allow-popups"
+      loading="lazy"
+    />
+  );
+};
 
-    return (
-      <div className="flex justify-center pt-2">
-        {/* <img className="border-black border-[1px] mt-4" src="/photos/resume-img.png"/> */}
-        <Image
-        src="/photos/resume.png"
-        height={700}
-        width={700}
-        alt="resume"
-        priority
-        className="border-black border-2"
-        />
-      </div>
-    )
-}   
 
 
 
